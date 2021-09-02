@@ -1,0 +1,17 @@
+{
+  "name": "sample-puppeteer-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "open": "node ./open.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "jsdom": "^17.0.0",
+    "open": "^8.2.1"
+  }
+}
