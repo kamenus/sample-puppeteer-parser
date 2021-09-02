@@ -4,16 +4,18 @@ Pre-requirements:
     npm install puppeteer puppeteer-core
     npm link puppeteer
   ```
-Usage:
+**Usage:**
 
-  Launch Chrome with dev port: (You need to close browser if it's running)
+Launch Chrome with dev port: (You need to close browser if it's running)
   ```
     /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --no-first-run --no-default-browser-check
   ```
+  
+Add result ws debug connection to BROWSERWSENDPOINT env variable
 
-  Execute:
+Execute:
   ```npm start```
 
-  To open all profiles in browser (from output.json) use:
+To open all profiles in browser (from output.json) use:
 
   ```npm run open```
